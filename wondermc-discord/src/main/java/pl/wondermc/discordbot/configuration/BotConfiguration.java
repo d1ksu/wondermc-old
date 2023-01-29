@@ -7,11 +7,11 @@ import pl.wondermc.api.database.Nats;
 
 public class BotConfiguration extends OkaeriConfig {
 
-    private String token = "OTQzMTc2MTI4MjQ2NDc2ODgw.GRxqj8.pzr5dfTag4e00UnVXocd46LixOdPvWBcp86y80";
+    private String token = "";
     private String guildId = "913873651416318022";
 
     @Comment("# Webhooku do kanalu helpopu.")
-    private String webhookUrl = "https://discord.com/api/webhooks/1004760820187672606/Gtz-OUBZWna5Kzw546UgeCl-7nS6eCik9wh2K3ODO9vOyKaJaQ6T2GOcCX9mnhT514f4";
+    private String webhookUrl = "";
     @Comment("# Dane do polaczenia z baza danych MySQL.")
     private Database database = new Database(
             "localhost",
