@@ -1,0 +1,7 @@
+name: wondermc-boxpvp
+version: 1.0
+api-version: 1.17
+main: pl.wondermc.boxpvp.BukkitMain
+author: d1ksu
+depend:
+  - WorldGuard

@@ -1,0 +1,10 @@
+rootProject.name = 'wondermc'
+include 'wondermc-boxpvp'
+include 'wondermc-discord'
+
+include(':pieszku-nats-messenger')
+include(':pieszku-messenger-api')
+project(":pieszku-messenger-api").projectDir = file('pieszku-messaging-system/pieszku-messenger-api')
+project(":pieszku-nats-messenger").projectDir = file('pieszku-messaging-system/pieszku-nats-messenger')
+include 'wondermc-api'
+

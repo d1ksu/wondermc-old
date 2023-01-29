@@ -1,0 +1,20 @@
+
+dependencies {
+    implementation("net.dv8tion:JDA:5.0.0-alpha.17")
+    implementation 'eu.okaeri:okaeri-configs-yaml-snakeyaml:4.0.6'
+    implementation("club.minnced:discord-webhooks:0.8.2")
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+    implementation(project(":wondermc-api"))
+    implementation("mysql:mysql-connector-java:5.1.27")
+    compileOnly(project(":pieszku-messenger-api"))
+    compileOnly(project(":pieszku-nats-messenger"))
+
+}
+jar {
+    manifest {
+        attributes "Main-Class": "pl.wondermc.discordbot.BotMainBootstrap"
+    }
+}
+shadowJar {
+    archiveFileName = "wondermc-discord.jar"
+}

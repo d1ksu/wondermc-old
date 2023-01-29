@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/pieszku-messaging-system/pieszku-messenger-api" />
+            <option value="$PROJECT_DIR$/pieszku-messaging-system/pieszku-nats-messenger" />
+            <option value="$PROJECT_DIR$/wondermc-api" />
+            <option value="$PROJECT_DIR$/wondermc-boxpvp" />
+            <option value="$PROJECT_DIR$/wondermc-discord" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

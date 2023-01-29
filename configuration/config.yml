@@ -1,0 +1,26 @@
+token: OTQzMTc2MTI4MjQ2NDc2ODgw.GRxqj8.pzr5dfTag4e00UnVXocd46LixOdPvWBcp86y80
+guildId: '913873651416318022'
+# Webhooku do kanalu helpopu.
+webhookUrl: https://discord.com/api/webhooks/1004760820187672606/Gtz-OUBZWna5Kzw546UgeCl-7nS6eCik9wh2K3ODO9vOyKaJaQ6T2GOcCX9mnhT514f4
+# Dane do polaczenia z baza danych MySQL.
+database:
+  hostname: hostname
+  database: database
+  port: 3306
+  user: user
+  password: password
+# Dane do polaczenia z natsem.
+natsConnector:
+  hostname: 127.0.0.1
+  port: 4222
+  password: ''
+# ID kanalu do nagrod.
+rewardChannelId: '1011706301115531264'
+# Wiadomosc gdy gracz juz odebral nagrode.
+alreadyCollected: Odebrales juz nagrode!
+# Wiadomosc gdy podany gracz nie bedzie istnial.
+playerDoesntExists: Podany gracz nie istnieje!
+# Wiadomosc gdy gracz odbierze nagrode.
+successfullyCollected: Pomyslnie odebrano nagrode!
+# Wiadomosc gdy gracz uzyje komendy na zlym kanale.
+wrongChannel: 'Aby odebrac nagrode uzyj tej komendy na kanale #nagroda'

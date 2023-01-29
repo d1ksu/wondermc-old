@@ -1,0 +1,7 @@
+dependencies {
+    implementation 'de.ruedigermoeller:fst:3.0.3'
+    implementation 'org.reflections:reflections:0.10.2'
+}
+
+group = 'org.pieszku.messaging'
+description = 'pieszku-messenger-api'

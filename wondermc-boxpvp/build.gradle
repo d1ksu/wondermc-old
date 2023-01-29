@@ -1,0 +1,20 @@
+
+repositories {
+    maven { url "https://papermc.io/repo/repository/maven-public/"}
+    maven { url "https://maven.enginehub.org/repo/" }
+}
+dependencies {
+    compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
+    implementation 'dev.triumphteam:triumph-gui:3.1.3'
+    implementation 'eu.okaeri:okaeri-configs-serdes-bukkit:3.4.2'
+    implementation 'eu.okaeri:okaeri-configs-yaml-bukkit:3.4.2'
+    compileOnly 'com.sk89q.worldguard:worldguard-bukkit:7.0.7-SNAPSHOT'
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+    implementation(project(":wondermc-api"))
+    compileOnly(project(":pieszku-messenger-api"))
+    compileOnly(project(":pieszku-nats-messenger"))
+
+}
+shadowJar {
+    archiveFileName = "wondermc-boxpvp.jar"
+}
